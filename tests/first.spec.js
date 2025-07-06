@@ -24,15 +24,7 @@ const count = await links.count();
  expect(count).toBe(11);
 
 
-console.log(count) 
 
-for(let i =0; i<count; ++i){
-
-const menuItemText= await links.nth(i).textContent();
-console.log(menuItemText);
-if(menuItemText==='Time'){
-
-  await  links.nth(i).click();
 }
 
 }
