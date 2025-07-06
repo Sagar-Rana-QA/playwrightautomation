@@ -23,6 +23,9 @@ const links = page.locator("//a[@class='oxd-main-menu-item']//span");
 const count = await links.count();
  expect(count).toBe(11);
 
+const links = page.locator("//a[@class='oxd-main-menu-item']//span");
+const count = await links.count();
+ expect(count).toBe(11);
 
 
 }
